@@ -9,7 +9,7 @@ app.secret_key = 'thisisasecretkeyforgaanaapiokbye!'
 
 @app.route('/')
 def home():
-    return redirect("https://cyberboysumanjay.github.io/GaanaAPI/")
+    return redirect("https://google.com")
 
 
 @app.route('/result/', methods=['GET', 'POST'])
